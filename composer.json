@@ -1,0 +1,21 @@
+{
+    "name": "nazonohito51/cakephp2-fabricate-adaptor",
+    "description": "Fabricate Adaptor for CakePHP2",
+    "authors": [
+        {
+            "name": "SatoshiKawashima",
+            "email": "nazonohito51@gmail.com"
+        }
+    ],
+    "require": {
+        "sizuhiko/fabricate": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cake2Fabricate\\": "src"
+        }
+    }
+}
